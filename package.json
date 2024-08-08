@@ -1,6 +1,6 @@
 
 {
-  "name": "barberi admin",
+  "name": "@barberi/admin",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
