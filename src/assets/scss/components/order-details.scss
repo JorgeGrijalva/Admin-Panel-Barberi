@@ -1,0 +1,133 @@
+.order_details {
+  .order-details-info {
+    background: transparent;
+    border: none;
+    .ant-card-head {
+      padding: 0;
+      .ant-card-head-title {
+        font-size: 28px;
+        .icon {
+          font-weight: 800;
+        }
+      }
+    }
+    .ant-card-body {
+      padding: 0px;
+    }
+  }
+
+  .delivery-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    span {
+      display: inline-block;
+      width: 90%;
+      white-space: nowrap;
+      overflow: hidden !important;
+      text-overflow: ellipsis;
+    }
+  }
+  .order_info {
+    .ant-card {
+      overflow: hidden;
+    }
+  }
+
+  .order-card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .order-card-icon {
+    font-size: 2rem;
+  }
+
+  .customer-info-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+
+    .customer-info-detail {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: 100%;
+      row-gap: 1rem;
+
+      @media screen and (max-width: 768px) {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+
+  .order-table {
+    .ant-card-body {
+      padding: 0 !important;
+    }
+
+    &__summary {
+      padding: 20px;
+    }
+  }
+
+  .customer-name {
+    font-size: 1.2rem;
+  }
+
+  .customer-info {
+    display: flex;
+    flex-direction: column;
+
+    .title {
+      font-weight: bold;
+    }
+
+    .description {
+      display: inline-flex;
+      text-overflow: ellipsis;
+      align-items: center;
+      gap: 5px;
+      flex-wrap: nowrap;
+    }
+  }
+
+  .order-message {
+    width: 70%;
+    -webkit-border-radius: 15px;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius: 15px;
+    -moz-border-radius-bottomleft: 0;
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    background-color: var(--grey);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+
+    .message {
+      font-size: 1rem;
+    }
+
+    .date {
+      font-size: 0.7rem;
+    }
+  }
+}
+
+.bonus {
+  color: var(--dark-red);
+}
+
+.relative {
+  position: relative;
+}
+
+.product-note {
+  position: absolute;
+  top: -16px;
+  right: -16px;
+  z-index: 1;
+  cursor: pointer;
+}

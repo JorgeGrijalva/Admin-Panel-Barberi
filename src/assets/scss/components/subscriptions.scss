@@ -1,0 +1,91 @@
+.pricing {
+  .container-fluid {
+    .row {
+      .pricing-box {
+        position: relative;
+
+        .card {
+          padding: 15px;
+          border: none;
+          border-radius: 12px;
+          .card-body {
+            .card-title {
+              color: var(--subscribe-text);
+              font-weight: 600;
+            }
+
+            span {
+              font-size: 2rem;
+              color: var(--subscribe);
+            }
+
+            .text {
+              font-size: 3rem;
+              color: var(--subscribe);
+            }
+
+            .month {
+              color: var(--subscribe);
+            }
+
+            .type {
+              font-size: 1.2rem;
+              color: var(--subscribe-text);
+            }
+
+            .active {
+              color: var(--subscribe);
+              background-color: transparent;
+              font-size: 1.2rem !important;
+              border: none;
+            }
+          }
+
+          .icon-option {
+            position: absolute;
+            right: 15px;
+            top: 13%;
+          }
+
+          .ant-btn-default {
+            border-color: transparent;
+            color: var(--subscribe);
+            background: #f6fafd;
+            font-size: 1rem;
+          }
+
+          .button {
+            transition: 0.5s ease;
+
+            &:hover {
+              transition: 0.5s ease;
+              background: var(--subscribe);
+              color: var(--white);
+              border-color: var(--subscribe);
+            }
+
+            margin-bottom: 10px;
+          }
+          box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+          transition: 0.4s box-shadow ease-out;
+          &:hover {
+            transition: 0.4s box-shadow ease-out;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          }
+        }
+      }
+    }
+  }
+}
+.payment-card {
+  min-height: 111px;
+  cursor: pointer;
+  &.active {
+    border-color: var(--primary);
+  }
+  .payment-icon {
+    width: 100%;
+    min-height: 42px;
+    font-size: 28px;
+  }
+}

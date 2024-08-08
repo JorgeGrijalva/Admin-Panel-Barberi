@@ -1,0 +1,228 @@
+.gallery-container,
+.media-upload-gallery-container {
+  user-select: none;
+
+  .ant-row {
+    width: 100%;
+
+    .ant-col {
+      max-width: 200px;
+      width: 100%;
+
+      .folder {
+        cursor: pointer;
+        border-color: transparent;
+        &:hover {
+          background-color: var(--grey);
+        }
+      }
+
+      .ant-card {
+        background: transparent;
+        border-radius: 7px;
+        padding: 5px;
+        height: 180px;
+        text-align: center;
+        transition: box-shadow 0.5s ease-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        &:hover {
+          transition: box-shadow 0.5s ease-out;
+        }
+        .ant-card-body {
+          padding: 0 !important;
+        }
+        .icon-folder {
+          width: 130px;
+          height: 100%;
+          background: none;
+        }
+        .ant-card-head {
+          min-height: 0;
+
+          .ant-card-head-wrapper {
+            .ant-card-head-title {
+              padding: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.upload-media {
+  .ant-upload {
+    &.ant-upload-select-picture-card {
+      width: 100% !important;
+      height: 250px !important;
+    }
+  }
+}
+
+.media-upload-gallery-container {
+  background-color: transparent !important;
+}
+
+.icon-center-delete {
+  position: absolute !important;
+  top: 0px;
+  right: 10px;
+  padding: 0;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px !important;
+}
+
+[data-theme='dark'] .gallery-container {
+  .ant-row {
+    .ant-col {
+      .folder:hover {
+        background-color: var(--dark-blue);
+      }
+    }
+  }
+}
+
+.gallery-item {
+  .ant-card {
+    background: transparent !important;
+  }
+
+  .ant-card-body {
+    .ant-card-body {
+      padding: 0;
+    }
+  }
+
+  .ant-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 8px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+
+      cursor: pointer;
+      transition: all ease 300ms;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+}
+
+.media-upload-wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  .ant-image {
+    width: 110px;
+    height: 110px;
+    border-radius: 10px;
+    padding: 8px;
+    border: 1px solid #4d5b75;
+    cursor: pointer;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .image-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      border-radius: 10px;
+      transition: all ease 300ms;
+      background: rgba($color: #000000, $alpha: 0);
+    }
+
+    &:hover {
+      &::after {
+        background: rgba($color: #000000, $alpha: 0.3);
+      }
+    }
+
+    .anticon-delete {
+      position: absolute;
+      visibility: hidden;
+      opacity: 0;
+      transition: all ease 300ms;
+      color: white !important;
+      svg {
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+        color: white !important;
+      }
+    }
+
+    &:hover {
+      .anticon-delete {
+        visibility: visible;
+        opacity: 1;
+        color: white !important;
+        svg {
+          color: white !important;
+        }
+      }
+    }
+  }
+}
+
+.media-upload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  width: 110px;
+  height: 110px;
+  border: 2px dashed #4d5b75;
+  border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all ease 300ms;
+
+  &:hover {
+    border: 2px dashed var(--primary);
+  }
+}
+.antdImgUpload {
+  .ant-upload {
+    div {
+      font-size: 25px !important;
+    }
+  }
+  .anticon {
+    font-size: 50px !important;
+  }
+}

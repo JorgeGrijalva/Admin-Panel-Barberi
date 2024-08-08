@@ -1,0 +1,18 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  .header {
+    display: flex;
+    margin-bottom: 20px;
+    .first-four,
+    .first-zero,
+    .second-four {
+      font-size: 300px;
+    }
+  }
+}

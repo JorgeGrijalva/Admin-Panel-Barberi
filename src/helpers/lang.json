@@ -1,0 +1,927 @@
+[
+  {
+    "short_code": "aa",
+    "Language_name": "Afar",
+    "Native_name": "Afaraf"
+  },
+  {
+    "short_code": "ab",
+    "Language_name": "Abkhaz",
+    "Native_name": "аҧсуа бызшәа, аҧсшәа"
+  },
+  {
+    "short_code": "ae",
+    "Language_name": "Avestan",
+    "Native_name": "avesta"
+  },
+  {
+    "short_code": "af",
+    "Language_name": "Afrikaans",
+    "Native_name": "Afrikaans"
+  },
+  {
+    "short_code": "ak",
+    "Language_name": "Akan",
+    "Native_name": "Akan"
+  },
+  {
+    "short_code": "am",
+    "Language_name": "Amharic",
+    "Native_name": "አማርኛ"
+  },
+  {
+    "short_code": "an",
+    "Language_name": "Aragonese",
+    "Native_name": "aragonés"
+  },
+  {
+    "short_code": "ar",
+    "Language_name": "Arabic",
+    "Native_name": "العربية"
+  },
+  {
+    "short_code": "as",
+    "Language_name": "Assamese",
+    "Native_name": "অসমীয়া"
+  },
+  {
+    "short_code": "av",
+    "Language_name": "Avaric",
+    "Native_name": "авар мацӀ, магӀарул мацӀ"
+  },
+  {
+    "short_code": "ay",
+    "Language_name": "Aymara",
+    "Native_name": "aymar aru"
+  },
+  {
+    "short_code": "az",
+    "Language_name": "Azerbaijani",
+    "Native_name": "azərbaycan dili"
+  },
+  {
+    "short_code": "az",
+    "Language_name": "South Azerbaijani",
+    "Native_name": "تورکجه‎"
+  },
+  {
+    "short_code": "ba",
+    "Language_name": "Bashkir",
+    "Native_name": "башҡорт теле"
+  },
+  {
+    "short_code": "be",
+    "Language_name": "Belarusian",
+    "Native_name": "беларуская мова"
+  },
+  {
+    "short_code": "bg",
+    "Language_name": "Bulgarian",
+    "Native_name": "български език"
+  },
+  {
+    "short_code": "bh",
+    "Language_name": "Bihari",
+    "Native_name": "भोजपुरी"
+  },
+  {
+    "short_code": "bi",
+    "Language_name": "Bislama",
+    "Native_name": "Bislama"
+  },
+  {
+    "short_code": "bm",
+    "Language_name": "Bambara",
+    "Native_name": "bamanankan"
+  },
+  {
+    "short_code": "bn",
+    "Language_name": "Bengali; Bangla",
+    "Native_name": "বাংলা"
+  },
+  {
+    "short_code": "bo",
+    "Language_name": "Tibetan Standard, Tibetan, Central",
+    "Native_name": "བོད་ཡིག"
+  },
+  {
+    "short_code": "br",
+    "Language_name": "Breton",
+    "Native_name": "brezhoneg"
+  },
+  {
+    "short_code": "bs",
+    "Language_name": "Bosnian",
+    "Native_name": "bosanski jezik"
+  },
+  {
+    "short_code": "ca",
+    "Language_name": "Catalan; Valencian",
+    "Native_name": "català, valencià"
+  },
+  {
+    "short_code": "ce",
+    "Language_name": "Chechen",
+    "Native_name": "нохчийн мотт"
+  },
+  {
+    "short_code": "ch",
+    "Language_name": "Chamorro",
+    "Native_name": "Chamoru"
+  },
+  {
+    "short_code": "co",
+    "Language_name": "Corsican",
+    "Native_name": "corsu, lingua corsa"
+  },
+  {
+    "short_code": "cr",
+    "Language_name": "Cree",
+    "Native_name": "ᓀᐦᐃᔭᐍᐏᐣ"
+  },
+  {
+    "short_code": "cs",
+    "Language_name": "Czech",
+    "Native_name": "čeština, český jazyk"
+  },
+  {
+    "short_code": "cu",
+    "Language_name": "Old Church Slavonic, Church Slavonic, Old Bulgarian",
+    "Native_name": "ѩзыкъ словѣньскъ"
+  },
+  {
+    "short_code": "cv",
+    "Language_name": "Chuvash",
+    "Native_name": "чӑваш чӗлхи"
+  },
+  {
+    "short_code": "cy",
+    "Language_name": "Welsh",
+    "Native_name": "Cymraeg"
+  },
+  {
+    "short_code": "da",
+    "Language_name": "Danish",
+    "Native_name": "dansk"
+  },
+  {
+    "short_code": "de",
+    "Language_name": "German",
+    "Native_name": "Deutsch"
+  },
+  {
+    "short_code": "dv",
+    "Language_name": "Divehi; Dhivehi; Maldivian;",
+    "Native_name": "ދިވެހި"
+  },
+  {
+    "short_code": "dz",
+    "Language_name": "Dzongkha",
+    "Native_name": "རྫོང་ཁ"
+  },
+  {
+    "short_code": "ee",
+    "Language_name": "Ewe",
+    "Native_name": "Eʋegbe"
+  },
+  {
+    "short_code": "el",
+    "Language_name": "Greek, Modern",
+    "Native_name": "ελληνικά"
+  },
+  {
+    "short_code": "en",
+    "Language_name": "English",
+    "Native_name": "English"
+  },
+  {
+    "short_code": "eo",
+    "Language_name": "Esperanto",
+    "Native_name": "Esperanto"
+  },
+  {
+    "short_code": "es",
+    "Language_name": "Spanish; Castilian",
+    "Native_name": "español, castellano"
+  },
+  {
+    "short_code": "et",
+    "Language_name": "Estonian",
+    "Native_name": "eesti, eesti keel"
+  },
+  {
+    "short_code": "eu",
+    "Language_name": "Basque",
+    "Native_name": "euskara, euskera"
+  },
+  {
+    "short_code": "fa",
+    "Language_name": "Persian (Farsi)",
+    "Native_name": "فارسی"
+  },
+  {
+    "short_code": "ff",
+    "Language_name": "Fula; Fulah; Pulaar; Pular",
+    "Native_name": "Fulfulde, Pulaar, Pular"
+  },
+  {
+    "short_code": "fi",
+    "Language_name": "Finnish",
+    "Native_name": "suomi, suomen kieli"
+  },
+  {
+    "short_code": "fj",
+    "Language_name": "Fijian",
+    "Native_name": "vosa Vakaviti"
+  },
+  {
+    "short_code": "fo",
+    "Language_name": "Faroese",
+    "Native_name": "føroyskt"
+  },
+  {
+    "short_code": "fr",
+    "Language_name": "French",
+    "Native_name": "français, langue française"
+  },
+  {
+    "short_code": "fy",
+    "Language_name": "Western Frisian",
+    "Native_name": "Frysk"
+  },
+  {
+    "short_code": "ga",
+    "Language_name": "Irish",
+    "Native_name": "Gaeilge"
+  },
+  {
+    "short_code": "gd",
+    "Language_name": "Scottish Gaelic; Gaelic",
+    "Native_name": "Gàidhlig"
+  },
+  {
+    "short_code": "gl",
+    "Language_name": "Galician",
+    "Native_name": "galego"
+  },
+  {
+    "short_code": "gn",
+    "Language_name": "Guaraní",
+    "Native_name": "Avañe'ẽ"
+  },
+  {
+    "short_code": "gu",
+    "Language_name": "Gujarati",
+    "Native_name": "ગુજરાતી"
+  },
+  {
+    "short_code": "gv",
+    "Language_name": "Manx",
+    "Native_name": "Gaelg, Gailck"
+  },
+  {
+    "short_code": "ha",
+    "Language_name": "Hausa",
+    "Native_name": "Hausa, هَوُسَ"
+  },
+  {
+    "short_code": "he",
+    "Language_name": "Hebrew (modern)",
+    "Native_name": "עברית"
+  },
+  {
+    "short_code": "hi",
+    "Language_name": "Hindi",
+    "Native_name": "हिन्दी, हिंदी"
+  },
+  {
+    "short_code": "ho",
+    "Language_name": "Hiri Motu",
+    "Native_name": "Hiri Motu"
+  },
+  {
+    "short_code": "hr",
+    "Language_name": "Croatian",
+    "Native_name": "hrvatski jezik"
+  },
+  {
+    "short_code": "ht",
+    "Language_name": "Haitian; Haitian Creole",
+    "Native_name": "Kreyòl ayisyen"
+  },
+  {
+    "short_code": "hu",
+    "Language_name": "Hungarian",
+    "Native_name": "magyar"
+  },
+  {
+    "short_code": "hy",
+    "Language_name": "Armenian",
+    "Native_name": "Հայերեն"
+  },
+  {
+    "short_code": "hz",
+    "Language_name": "Herero",
+    "Native_name": "Otjiherero"
+  },
+  {
+    "short_code": "ia",
+    "Language_name": "Interlingua",
+    "Native_name": "Interlingua"
+  },
+  {
+    "short_code": "id",
+    "Language_name": "Indonesian",
+    "Native_name": "Bahasa Indonesia"
+  },
+  {
+    "short_code": "ie",
+    "Language_name": "Interlingue",
+    "Native_name": "Originally called Occidental; then Interlingue after WWII"
+  },
+  {
+    "short_code": "ig",
+    "Language_name": "Igbo",
+    "Native_name": "Asụsụ Igbo"
+  },
+  {
+    "short_code": "ii",
+    "Language_name": "Nuosu",
+    "Native_name": "ꆈꌠ꒿ Nuosuhxop"
+  },
+  {
+    "short_code": "ik",
+    "Language_name": "Inupiaq",
+    "Native_name": "Iñupiaq, Iñupiatun"
+  },
+  {
+    "short_code": "io",
+    "Language_name": "Ido",
+    "Native_name": "Ido"
+  },
+  {
+    "short_code": "is",
+    "Language_name": "Icelandic",
+    "Native_name": "Íslenska"
+  },
+  {
+    "short_code": "it",
+    "Language_name": "Italian",
+    "Native_name": "italiano"
+  },
+  {
+    "short_code": "iu",
+    "Language_name": "Inuktitut",
+    "Native_name": "ᐃᓄᒃᑎᑐᑦ"
+  },
+  {
+    "short_code": "ja",
+    "Language_name": "Japanese",
+    "Native_name": "日本語 (にほんご)"
+  },
+  {
+    "short_code": "jv",
+    "Language_name": "Javanese",
+    "Native_name": "basa Jawa"
+  },
+  {
+    "short_code": "ka",
+    "Language_name": "Georgian",
+    "Native_name": "ქართული"
+  },
+  {
+    "short_code": "kg",
+    "Language_name": "Kongo",
+    "Native_name": "KiKongo"
+  },
+  {
+    "short_code": "ki",
+    "Language_name": "Kikuyu, Gikuyu",
+    "Native_name": "Gĩkũyũ"
+  },
+  {
+    "short_code": "kj",
+    "Language_name": "Kwanyama, Kuanyama",
+    "Native_name": "Kuanyama"
+  },
+  {
+    "short_code": "kk",
+    "Language_name": "Kazakh",
+    "Native_name": "қазақ тілі"
+  },
+  {
+    "short_code": "kl",
+    "Language_name": "Kalaallisut, Greenlandic",
+    "Native_name": "kalaallisut, kalaallit oqaasii"
+  },
+  {
+    "short_code": "km",
+    "Language_name": "Khmer",
+    "Native_name": "ខ្មែរ, ខេមរភាសា, ភាសាខ្មែរ"
+  },
+  {
+    "short_code": "kn",
+    "Language_name": "Kannada",
+    "Native_name": "ಕನ್ನಡ"
+  },
+  {
+    "short_code": "ko",
+    "Language_name": "Korean",
+    "Native_name": "한국어 (韓國語), 조선어 (朝鮮語)"
+  },
+  {
+    "short_code": "kr",
+    "Language_name": "Kanuri",
+    "Native_name": "Kanuri"
+  },
+  {
+    "short_code": "ks",
+    "Language_name": "Kashmiri",
+    "Native_name": "कश्मीरी, كشميري‎"
+  },
+  {
+    "short_code": "ku",
+    "Language_name": "Kurdish",
+    "Native_name": "Kurdî, كوردی‎"
+  },
+  {
+    "short_code": "kv",
+    "Language_name": "Komi",
+    "Native_name": "коми кыв"
+  },
+  {
+    "short_code": "kw",
+    "Language_name": "Cornish",
+    "Native_name": "Kernewek"
+  },
+  {
+    "short_code": "ky",
+    "Language_name": "Kyrgyz",
+    "Native_name": "Кыргызча, Кыргыз тили"
+  },
+  {
+    "short_code": "la",
+    "Language_name": "Latin",
+    "Native_name": "latine, lingua latina"
+  },
+  {
+    "short_code": "lb",
+    "Language_name": "Luxembourgish, Letzeburgesch",
+    "Native_name": "Lëtzebuergesch"
+  },
+  {
+    "short_code": "lg",
+    "Language_name": "Ganda",
+    "Native_name": "Luganda"
+  },
+  {
+    "short_code": "li",
+    "Language_name": "Limburgish, Limburgan, Limburger",
+    "Native_name": "Limburgs"
+  },
+  {
+    "short_code": "ln",
+    "Language_name": "Lingala",
+    "Native_name": "Lingála"
+  },
+  {
+    "short_code": "lo",
+    "Language_name": "Lao",
+    "Native_name": "ພາສາລາວ"
+  },
+  {
+    "short_code": "lt",
+    "Language_name": "Lithuanian",
+    "Native_name": "lietuvių kalba"
+  },
+  {
+    "short_code": "lu",
+    "Language_name": "Luba-Katanga",
+    "Native_name": "Tshiluba"
+  },
+  {
+    "short_code": "lv",
+    "Language_name": "Latvian",
+    "Native_name": "latviešu valoda"
+  },
+  {
+    "short_code": "mg",
+    "Language_name": "Malagasy",
+    "Native_name": "fiteny malagasy"
+  },
+  {
+    "short_code": "mh",
+    "Language_name": "Marshallese",
+    "Native_name": "Kajin M̧ajeļ"
+  },
+  {
+    "short_code": "mi",
+    "Language_name": "Māori",
+    "Native_name": "te reo Māori"
+  },
+  {
+    "short_code": "mk",
+    "Language_name": "Macedonian",
+    "Native_name": "македонски јазик"
+  },
+  {
+    "short_code": "ml",
+    "Language_name": "Malayalam",
+    "Native_name": "മലയാളം"
+  },
+  {
+    "short_code": "mn",
+    "Language_name": "Mongolian",
+    "Native_name": "монгол"
+  },
+  {
+    "short_code": "mr",
+    "Language_name": "Marathi (Marāṭhī)",
+    "Native_name": "मराठी"
+  },
+  {
+    "short_code": "ms",
+    "Language_name": "Malay",
+    "Native_name": "bahasa Melayu, بهاس ملايو‎"
+  },
+  {
+    "short_code": "mt",
+    "Language_name": "Maltese",
+    "Native_name": "Malti"
+  },
+  {
+    "short_code": "my",
+    "Language_name": "Burmese",
+    "Native_name": "ဗမာစာ"
+  },
+  {
+    "short_code": "na",
+    "Language_name": "Nauru",
+    "Native_name": "Ekakairũ Naoero"
+  },
+  {
+    "short_code": "nb",
+    "Language_name": "Norwegian Bokmål",
+    "Native_name": "Norsk bokmål"
+  },
+  {
+    "short_code": "nd",
+    "Language_name": "North Ndebele",
+    "Native_name": "isiNdebele"
+  },
+  {
+    "short_code": "ne",
+    "Language_name": "Nepali",
+    "Native_name": "नेपाली"
+  },
+  {
+    "short_code": "ng",
+    "Language_name": "Ndonga",
+    "Native_name": "Owambo"
+  },
+  {
+    "short_code": "nl",
+    "Language_name": "Dutch",
+    "Native_name": "Nederlands, Vlaams"
+  },
+  {
+    "short_code": "nn",
+    "Language_name": "Norwegian Nynorsk",
+    "Native_name": "Norsk nynorsk"
+  },
+  {
+    "short_code": "no",
+    "Language_name": "Norwegian",
+    "Native_name": "Norsk"
+  },
+  {
+    "short_code": "nr",
+    "Language_name": "South Ndebele",
+    "Native_name": "isNdebele"
+  },
+  {
+    "short_code": "nv",
+    "Language_name": "Navajo, Navaho",
+    "Native_name": "Diné bizaad, Dinékʼehǰí"
+  },
+  {
+    "short_code": "ny",
+    "Language_name": "Chichewa; Chewa; Nyanja",
+    "Native_name": "chiCheŵa, chinyanja"
+  },
+  {
+    "short_code": "oc",
+    "Language_name": "Occitan",
+    "Native_name": "occitan, lenga d'òc"
+  },
+  {
+    "short_code": "oj",
+    "Language_name": "Ojibwe, Ojibwa",
+    "Native_name": "ᐊᓂᔑᓈᐯᒧᐎᓐ"
+  },
+  {
+    "short_code": "om",
+    "Language_name": "Oromo",
+    "Native_name": "Afaan Oromoo"
+  },
+  {
+    "short_code": "or",
+    "Language_name": "Oriya",
+    "Native_name": "ଓଡ଼ିଆ"
+  },
+  {
+    "short_code": "os",
+    "Language_name": "Ossetian, Ossetic",
+    "Native_name": "ирон æвзаг"
+  },
+  {
+    "short_code": "pa",
+    "Language_name": "Panjabi, Punjabi",
+    "Native_name": "ਪੰਜਾਬੀ, پنجابی‎"
+  },
+  {
+    "short_code": "pi",
+    "Language_name": "Pāli",
+    "Native_name": "पाऴि"
+  },
+  {
+    "short_code": "pl",
+    "Language_name": "Polish",
+    "Native_name": "język polski, polszczyzna"
+  },
+  {
+    "short_code": "ps",
+    "Language_name": "Pashto, Pushto",
+    "Native_name": "پښتو"
+  },
+  {
+    "short_code": "pt",
+    "Language_name": "Portuguese",
+    "Native_name": "português"
+  },
+  {
+    "short_code": "qu",
+    "Language_name": "Quechua",
+    "Native_name": "Runa Simi, Kichwa"
+  },
+  {
+    "short_code": "rm",
+    "Language_name": "Romansh",
+    "Native_name": "rumantsch grischun"
+  },
+  {
+    "short_code": "rn",
+    "Language_name": "Kirundi",
+    "Native_name": "Ikirundi"
+  },
+  {
+    "short_code": "ro",
+    "Language_name": "Romanian",
+    "Native_name": "limba română"
+  },
+  {
+    "short_code": "ru",
+    "Language_name": "Russian",
+    "Native_name": "русский язык"
+  },
+  {
+    "short_code": "rw",
+    "Language_name": "Kinyarwanda",
+    "Native_name": "Ikinyarwanda"
+  },
+  {
+    "short_code": "sa",
+    "Language_name": "Sanskrit (Saṁskṛta)",
+    "Native_name": "संस्कृतम्"
+  },
+  {
+    "short_code": "sc",
+    "Language_name": "Sardinian",
+    "Native_name": "sardu"
+  },
+  {
+    "short_code": "sd",
+    "Language_name": "Sindhi",
+    "Native_name": "सिन्धी, سنڌي، سندھی‎"
+  },
+  {
+    "short_code": "se",
+    "Language_name": "Northern Sami",
+    "Native_name": "Davvisámegiella"
+  },
+  {
+    "short_code": "sg",
+    "Language_name": "Sango",
+    "Native_name": "yângâ tî sängö"
+  },
+  {
+    "short_code": "si",
+    "Language_name": "Sinhala, Sinhalese",
+    "Native_name": "සිංහල"
+  },
+  {
+    "short_code": "sk",
+    "Language_name": "Slovak",
+    "Native_name": "slovenčina, slovenský jazyk"
+  },
+  {
+    "short_code": "sl",
+    "Language_name": "Slovene",
+    "Native_name": "slovenski jezik, slovenščina"
+  },
+  {
+    "short_code": "sm",
+    "Language_name": "Samoan",
+    "Native_name": "gagana fa'a Samoa"
+  },
+  {
+    "short_code": "sn",
+    "Language_name": "Shona",
+    "Native_name": "chiShona"
+  },
+  {
+    "short_code": "so",
+    "Language_name": "Somali",
+    "Native_name": "Soomaaliga, af Soomaali"
+  },
+  {
+    "short_code": "sq",
+    "Language_name": "Albanian",
+    "Native_name": "gjuha shqipe"
+  },
+  {
+    "short_code": "sr",
+    "Language_name": "Serbian",
+    "Native_name": "српски језик"
+  },
+  {
+    "short_code": "ss",
+    "Language_name": "Swati",
+    "Native_name": "SiSwati"
+  },
+  {
+    "short_code": "st",
+    "Language_name": "Southern Sotho",
+    "Native_name": "Sesotho"
+  },
+  {
+    "short_code": "su",
+    "Language_name": "Sundanese",
+    "Native_name": "Basa Sunda"
+  },
+  {
+    "short_code": "sv",
+    "Language_name": "Swedish",
+    "Native_name": "Svenska"
+  },
+  {
+    "short_code": "sw",
+    "Language_name": "Swahili",
+    "Native_name": "Kiswahili"
+  },
+  {
+    "short_code": "ta",
+    "Language_name": "Tamil",
+    "Native_name": "தமிழ்"
+  },
+  {
+    "short_code": "te",
+    "Language_name": "Telugu",
+    "Native_name": "తెలుగు"
+  },
+  {
+    "short_code": "tg",
+    "Language_name": "Tajik",
+    "Native_name": "тоҷикӣ, toğikī, تاجیکی‎"
+  },
+  {
+    "short_code": "th",
+    "Language_name": "Thai",
+    "Native_name": "ไทย"
+  },
+  {
+    "short_code": "ti",
+    "Language_name": "Tigrinya",
+    "Native_name": "ትግርኛ"
+  },
+  {
+    "short_code": "tk",
+    "Language_name": "Turkmen",
+    "Native_name": "Türkmen, Түркмен"
+  },
+  {
+    "short_code": "tl",
+    "Language_name": "Tagalog",
+    "Native_name": "Wikang Tagalog, ᜏᜒᜃᜅ᜔ ᜆᜄᜎᜓᜄ᜔"
+  },
+  {
+    "short_code": "tn",
+    "Language_name": "Tswana",
+    "Native_name": "Setswana"
+  },
+  {
+    "short_code": "to",
+    "Language_name": "Tonga (Tonga Islands)",
+    "Native_name": "faka Tonga"
+  },
+  {
+    "short_code": "tr",
+    "Language_name": "Turkish",
+    "Native_name": "Türkçe"
+  },
+  {
+    "short_code": "ts",
+    "Language_name": "Tsonga",
+    "Native_name": "Xitsonga"
+  },
+  {
+    "short_code": "tt",
+    "Language_name": "Tatar",
+    "Native_name": "татар теле, tatar tele"
+  },
+  {
+    "short_code": "tw",
+    "Language_name": "Twi",
+    "Native_name": "Twi"
+  },
+  {
+    "short_code": "ty",
+    "Language_name": "Tahitian",
+    "Native_name": "Reo Tahiti"
+  },
+  {
+    "short_code": "ug",
+    "Language_name": "Uyghur, Uighur",
+    "Native_name": "Uyƣurqə, ئۇيغۇرچە‎"
+  },
+  {
+    "short_code": "uk",
+    "Language_name": "Ukrainian",
+    "Native_name": "українська мова"
+  },
+  {
+    "short_code": "ur",
+    "Language_name": "Urdu",
+    "Native_name": "اردو"
+  },
+  {
+    "short_code": "uz",
+    "Language_name": "Uzbek",
+    "Native_name": "O‘zbek, Ўзбек, أۇزبېك‎"
+  },
+  {
+    "short_code": "ve",
+    "Language_name": "Venda",
+    "Native_name": "Tshivenḓa"
+  },
+  {
+    "short_code": "vi",
+    "Language_name": "Vietnamese",
+    "Native_name": "Tiếng Việt"
+  },
+  {
+    "short_code": "vo",
+    "Language_name": "Volapük",
+    "Native_name": "Volapük"
+  },
+  {
+    "short_code": "wa",
+    "Language_name": "Walloon",
+    "Native_name": "walon"
+  },
+  {
+    "short_code": "wo",
+    "Language_name": "Wolof",
+    "Native_name": "Wollof"
+  },
+  {
+    "short_code": "xh",
+    "Language_name": "Xhosa",
+    "Native_name": "isiXhosa"
+  },
+  {
+    "short_code": "yi",
+    "Language_name": "Yiddish",
+    "Native_name": "ייִדיש"
+  },
+  {
+    "short_code": "yo",
+    "Language_name": "Yoruba",
+    "Native_name": "Yorùbá"
+  },
+  {
+    "short_code": "za",
+    "Language_name": "Zhuang, Chuang",
+    "Native_name": "Saɯ cueŋƅ, Saw cuengh"
+  },
+  {
+    "short_code": "zh",
+    "Language_name": "Chinese",
+    "Native_name": "中文 (Zhōngwén), 汉语, 漢語"
+  },
+  {
+    "short_code": "zu",
+    "Language_name": "Zulu",
+    "Native_name": "isiZulu"
+  }
+]

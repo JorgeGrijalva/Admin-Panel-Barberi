@@ -1,0 +1,32 @@
+.dashboard-container {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.parcel-float {
+  position: fixed;
+  right: 85px;
+  bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 50px;
+  padding: 0 16px;
+  z-index: 99;
+  border-radius: 0.625rem;
+  border: 1px solid var(--anchor-before-bg);
+  background-color: #fff;
+  box-shadow: 0 0 7px rgba(61, 61, 61, 0.2);
+  cursor: default;
+  label {
+    color: var(--body);
+  }
+}
+
+[data-theme='dark'] .parcel-float {
+  background: #4d5b75;
+}

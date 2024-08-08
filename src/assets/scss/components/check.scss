@@ -1,0 +1,86 @@
+.container_check {
+  display: block;
+  box-sizing: border-box;
+  .check_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    padding: 50px;
+    .check_companyInfo {
+      text-align: end;
+      color: rgb(0, 0, 0);
+    }
+    .check_icon {
+      font-size: 60px;
+      color: rgb(0, 0, 0);
+    }
+    span,
+    h1,
+    h5 {
+      color: rgb(0, 0, 0);
+    }
+  }
+  main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    .shop_data {
+      text-transform: uppercase;
+    }
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    color: rgb(0, 0, 0);
+    span,
+    h1 {
+      color: rgb(0, 0, 0);
+    }
+  }
+}
+
+[data-theme='dark'] .container_check {
+  display: block;
+  box-sizing: border-box;
+  .check_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    padding: 50px;
+    .check_companyInfo {
+      text-align: end;
+    }
+    .check_icon {
+      font-size: 60px;
+      color: #b3bdd1;
+    }
+    span,
+    h1,
+    h5 {
+      color: #b3bdd1;
+    }
+  }
+  main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    span,
+    h1,
+    h5 {
+      color: #b3bdd1;
+    }
+  }
+}

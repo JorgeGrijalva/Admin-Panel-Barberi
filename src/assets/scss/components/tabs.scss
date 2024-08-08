@@ -1,0 +1,187 @@
+.navbar-default {
+  background: var(--background);
+  width: 100%;
+  height: 45px;
+  user-select: unset;
+  .ant-tabs-nav::before {
+    display: none !important;
+  }
+
+  .ant-tabs-nav-list {
+    display: flex !important;
+    flex-direction: unset;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    left: 0;
+    top: 0;
+    //max-width: content-box;
+    padding: 10px 0 0 0;
+    background: var(--sidebar-active);
+    width: 100%;
+    white-space: nowrap;
+    .ant-tabs-tab {
+      padding: 0 !important;
+      margin: 0 !important;
+      width: 200px;
+      height: 35px;
+      background: transparent !important;
+      border: 1px solid transparent !important;
+      border-bottom: 0 !important;
+      border-radius: 10px 10px 0 0 !important;
+      transition: none !important;
+      max-width: max-content !important;
+      .ant-tabs-tab-btn {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px 10px 0 0 !important;
+        transition: none;
+      }
+    }
+    .ant-tabs-tab-active {
+      background: var(--background) !important;
+      .nav-link {
+        color: var(--dark);
+        background: var(--background);
+        &::after {
+          right: -100%;
+          border-radius: 0 0 0 10px;
+          box-shadow: -14px 0.25em 0 -4px var(--background);
+          opacity: 1;
+          z-index: 1;
+        }
+        &::before {
+          left: -100%;
+          border-radius: 0 0 10px 0;
+          box-shadow: 14px 0.25em 0 -4px var(--background);
+          opacity: 1;
+          z-index: 1;
+        }
+      }
+    }
+
+    .nav-link {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      padding: 8px 16px;
+      padding-right: 30px;
+      border-radius: 10px 10px 0 0;
+      text-decoration: none;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: var(--dark);
+      text-transform: capitalize;
+      transition: none;
+      .nav-text {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      &::after,
+      &::before {
+        content: ' ';
+        pointer-events: none;
+        position: absolute;
+        display: block;
+        height: 80%;
+        width: 100%;
+        bottom: -1px;
+        z-index: -1;
+        opacity: 0;
+      }
+
+      &:hover {
+        padding-left: 30px;
+        text-decoration: none;
+        background-color: rgba($color: #fafafb, $alpha: 0.4);
+        .reload-button {
+          display: inline-block;
+        }
+      }
+
+      .close-button {
+        display: block;
+        font-size: 10px;
+        color: var(--dark);
+        font-weight: 500;
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 3px;
+        margin: 0;
+        border-radius: 50%;
+        &:hover {
+          background-color: var(--sidebar-active);
+        }
+      }
+
+      .reload-button {
+        display: none;
+        font-size: 10px;
+        color: var(--dark);
+        font-weight: 500;
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 3px;
+        border-radius: 50%;
+        &:hover {
+          background-color: var(--sidebar-active);
+        }
+      }
+    }
+  }
+}
+
+.ant-tabs-dropdown {
+  .nav-link {
+    width: 100%;
+    .reload-button {
+      display: none;
+    }
+    span {
+      padding: 5px;
+    }
+  }
+}
+
+[data-theme='dark'] .navbar-default {
+  background: var(--dark-background);
+  .ant-tabs-nav-list {
+    background: var(--dark-background);
+    .nav-link {
+      color: var(--light-text);
+      .close-button,
+      .reload-button {
+        color: var(--light-text);
+      }
+      &:hover {
+        background-color: rgba($color: #1b2531, $alpha: 0.4);
+      }
+    }
+    .ant-tabs-tab-active {
+      background: var(--dark-blue) !important;
+      .nav-link {
+        background: var(--dark-blue);
+        color: var(--light-text);
+        &::after {
+          box-shadow: -14px 0.25em 0 -4px var(--dark-blue);
+        }
+        &::before {
+          box-shadow: 14px 0.25em 0 -4px var(--dark-blue);
+        }
+        .close-button,
+        .reload-button {
+          color: var(--light-text);
+        }
+      }
+    }
+  }
+}

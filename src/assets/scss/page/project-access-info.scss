@@ -1,0 +1,31 @@
+.project-access-info {
+  .project-card {
+    display: flex !important;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 15px 0;
+    justify-content: space-between;
+    align-items: center;
+
+    .project-name {
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    .project-version {
+      font-size: 18px;
+      margin: 0;
+    }
+
+    .project-link {
+      display: flex;
+      align-items: center;
+
+      span {
+        margin-right: 10px;
+      }
+    }
+  }
+}

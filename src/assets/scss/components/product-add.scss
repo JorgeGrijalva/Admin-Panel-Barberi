@@ -1,0 +1,39 @@
+.steps-content {
+  min-height: 100%;
+  margin-top: 16px;
+  padding-top: 50px;
+  position: relative;
+
+  .ant-form {
+    .send-button {
+      position: absolute;
+      right: 0;
+      bottom: -28px;
+    }
+  }
+}
+
+.steps-action {
+  margin-top: 24px;
+}
+
+.ant-steps-item-icon {
+  .ant-steps-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+}
+
+.table-data {
+  .produxt-data {
+    margin-top: 5px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+
+  .me-1 {
+    color: var(--subscribe);
+  }
+}

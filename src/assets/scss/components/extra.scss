@@ -1,0 +1,20 @@
+.extra-value {
+    border-radius: 200px;
+    padding: 4px 8px 4px 12px;
+    background-color: var(--grey);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.extra-clear {
+    outline: none;
+    border: none;
+    background-color: var(--dark-grey);
+    color: var(--white);
+    display: inline-flex;
+    align-items: center;
+    border-radius: 200px;
+    cursor: pointer;
+    padding: 4px;
+}

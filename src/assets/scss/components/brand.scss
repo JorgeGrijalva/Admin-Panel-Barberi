@@ -1,0 +1,55 @@
+.brandy-container {
+  margin-top: 20px;
+  max-width: 100%;
+  width: 100%;
+
+  .ant-col-spin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+
+  .button {
+    width: 150px;
+  }
+
+  .ant-row {
+    width: 100%;
+
+    .ant-col {
+      width: 100%;
+
+      .ant-card {
+        .ant-card-body {
+          padding: 24px 10px 24px 10px;
+
+          .ant-card-meta-detail > div:not(:last-child) {
+            font-size: 14px;
+          }
+
+          .ant-card-meta-description {
+            color: var(--dark);
+            font-size: 14px;
+          }
+        }
+
+        .icon-center {
+          position: absolute;
+          top: 8px;
+          right: 10px;
+          display: flex;
+        }
+
+        width: 100%;
+      }
+    }
+
+    .ant-row {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+}

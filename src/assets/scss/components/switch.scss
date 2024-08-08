@@ -1,0 +1,26 @@
+.toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 45px;
+    height: 20px !important;
+  outline: none !important;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  .ant-switch-handle {
+    top: -1px;
+    left: -4px;
+    position: absolute;
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 50%;
+
+    &:before {
+      width: 22px;
+      height: 22px;
+      outline: none;
+    }
+  }
+}

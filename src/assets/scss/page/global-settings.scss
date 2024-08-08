@@ -1,0 +1,77 @@
+.global-settings {
+  padding: 80px !important;
+  background-image: url('../../../assets/images/17.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  // .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title {
+  //   color: #fff !important;
+  // }
+
+  // .ant-steps-item-wait > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title {
+  //   color: var(--black);
+
+  //   &:hover {
+  //     color: #fff !important;
+  //   }
+  // }
+
+  // .ant-steps-item-wait .ant-steps-item-icon > .ant-steps-icon {
+  //   color: var(--black);
+
+  //   &:hover {
+  //     .ant-steps-item-wait > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title {
+  //       color: #fff !important;
+  //     }
+
+  //     .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title {
+  //       color: #fff !important;
+  //     }
+  //   }
+  // }
+
+  // .ant-steps .ant-steps-item:not(.ant-steps-item-active) > .ant-steps-item-container[role='button'] {
+  //   cursor: pointer;
+
+  //   &:hover {
+  //     .ant-steps-item-icon {
+  //       background-color: transparent;
+  //     }
+
+  //     .ant-steps-item-icon > .ant-steps-icon {
+  //       color: #ffffff !important;
+  //     }
+
+  //     .ant-steps-item-title {
+  //       color: #fff !important;
+  //     }
+  //   }
+  // }
+
+  // .ant-steps-item-title::after {
+  //   background: #ffffff !important;
+  // }
+
+  // .ant-page-header-content{
+  //   padding: 0;
+  // }
+
+  .global-settings-container {
+    .steps-content {
+      height: 80vh;
+      background: white;
+      overflow-x: auto;
+      border-radius: 7px;
+      box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.2);
+      padding: 24px;
+
+      .steps-action {
+        display: flex;
+        align-items: flex-end;
+        padding: 0 24px;
+      }
+    }
+  }
+}

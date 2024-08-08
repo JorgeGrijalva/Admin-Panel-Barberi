@@ -1,0 +1,100 @@
+.currencies-row {
+  margin: 100px;
+  padding-top: 30px;
+  .currency {
+    width: 200px;
+    .currencies-card {
+      padding: 15px 15px 30px 15px;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin: 0 0 20px 0;
+
+      &:hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .currencies-card-header {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .currencies-card-header-title {
+          font-size: 1.4rem;
+          font-weight: 600;
+          text-align: center;
+          margin: 0;
+          padding: 0;
+          color: var(--dark);
+
+          .currencies-card-symbol {
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin: 0;
+            padding: 0;
+            color: var(--subscribe);
+          }
+        }
+
+        .currencies-card-header-rate {
+          font-size: 2rem;
+          font-weight: 600;
+          text-align: center;
+          margin: 0;
+          padding: 0;
+
+          .currencies-card-header-rate-title {
+            font-size: .8rem;
+            font-weight: normal;
+            color: var(--subscribe);
+          }
+        }
+      }
+
+      .hr {
+        background: black;
+        width: 100%;
+        opacity: .2;
+      }
+
+      .currencies-card-body {
+        .currencies-card-body-options {
+          display: flex;
+          justify-content: space-between;
+
+          .edit-btn {
+            border-color: transparent;
+            color: var(--background);
+            background: var(--subscribe);
+            font-size: 1rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          }
+
+          .delete-btn {
+            border-color: transparent;
+            color: var(--danger);
+            background: var(--white);
+            font-size: 1rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          }
+
+          .active-btn {
+            border-color: transparent;
+            color: var(--subscribe);
+            background: var(--white);
+            font-size: 1rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          }
+        }
+      }
+
+      .ant-col-spin {
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+
