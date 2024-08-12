@@ -1,1 +1,1 @@
-# API Laravel Barberi Backend
+# REACT App Panel Admin Barberi
