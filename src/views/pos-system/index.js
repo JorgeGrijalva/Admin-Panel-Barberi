@@ -8,18 +8,18 @@ import OrderCart from './components/order-cart';
 export default function PosSystem() {
   return (
     <div className='pos-system'>
-      <Layout className='site-layout'>
-        <Row gutter={24}>
-          <Col span={15}>
-            <Filter />
-            <ProductCard />
-          </Col>
-          <Col span={9}>
-            <OrderTabs />
-            <OrderCart />
-          </Col>
-        </Row>
-      </Layout>
+      <div >
+          <div className=''>
+            <div>
+              <Filter />
+              <ProductCard />
+            </div>
+            <div>
+              <OrderTabs />
+              <OrderCart />
+            </div>
+          </div>
+      </div>
     </div>
   );
 }

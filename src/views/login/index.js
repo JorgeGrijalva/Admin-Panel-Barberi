@@ -18,7 +18,7 @@ import { setUserData, updateUser } from 'redux/slices/auth';
 import { fetchRestSettings, fetchSettings } from 'redux/slices/globalSettings';
 import { useTranslation } from 'react-i18next';
 import { PROJECT_NAME } from 'configs/app-global';
-import Recaptcha from 'components/recaptcha';
+// import Recaptcha from 'components/recaptcha';
 import { setMenu } from 'redux/slices/menu';
 import serviceMasterService from 'services/master/serviceMaster';
 
@@ -136,24 +136,21 @@ const Login = () => {
 
   return (
     <div className='login-container'>
-      <div className='container d-flex flex-column justify-content-center h-100 align-items-end'>
-        <Row justify='center'>
-          <Col>
-            <Card className='card'>
-              <div className='my-4 pl-4 pr-4 w-100'>
+      <div className='container d-flex flex-column justify-content-center h-100 aling-items-center lg:align-items-end'>
+  
+            <div className='w-full'>
+              <Card>
                 <div className='app-brand text-center'>
                   <Title className='brand-logo'>
                     {settings.title || PROJECT_NAME}
                   </Title>
                 </div>
-                <Row justify='center'>
-                  <Col>
                     <Form
+                    className='w-full p-4'
                       name='login-form'
                       layout='vertical'
                       form={form}
                       onFinish={handleLogin}
-                      style={{ width: '420px' }}
                     >
                       <Form.Item
                         name='email'
@@ -189,14 +186,14 @@ const Login = () => {
                           placeholder='Password'
                         />
                       </Form.Item>
-                      <Recaptcha onChange={handleRecaptchaChange} />
+                      {/* <Recaptcha onChange={handleRecaptchaChange} /> */}
                       <Form.Item className='login-input mt-4'>
                         <Button
                           type='primary'
                           htmlType='submit'
                           className='login-form-button'
                           loading={loading}
-                          disabled={!Boolean(recaptcha)}
+                          // disabled={!Boolean(recaptcha)}
                         >
                           {t('Login')}
                         </Button>
@@ -234,12 +231,9 @@ const Login = () => {
                         </Descriptions>
                       )}
                     </Form>
-                  </Col>
-                </Row>
-              </div>
-            </Card>
-          </Col>
-        </Row>
+              </Card>
+            </div>
+
       </div>
     </div>
   );
