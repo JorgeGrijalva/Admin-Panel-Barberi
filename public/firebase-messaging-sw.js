@@ -10,13 +10,13 @@ importScripts('https://cdn.jsdelivr.net/npm/idb-keyval@6/dist/umd.js');
 
 // Initialize the Firebase app in the service worker by passing the generated config
 const firebaseConfig = {
-  apiKey: "AIzaSyAPKaWFljUvqmmt-Rln4W5_ngApOm7Pgsc",
-  authDomain: "barberi-b72dd.firebaseapp.com",
-  projectId: "barberi-b72dd",
-  storageBucket: "barberi-b72dd.appspot.com",
-  messagingSenderId: "642138481701",
-  appId: "1:642138481701:web:2e5ce28bd985116bc9cbcc",
-  measurementId: "G-BGWQB141JG"
+  apiKey: "AIzaSyDt3zjCrQuVXHAF0jegYviSqfN4lIqVo4c",
+  authDomain: "barberi-e15ce.firebaseapp.com",
+  projectId: "barberi-e15ce",
+  storageBucket: "barberi-e15ce.appspot.com",
+  messagingSenderId: "216141489123",
+  appId: "1:216141489123:web:09bb56f3db3bc63e5df6d6",
+  measurementId: "G-12H7BTJPNB"
 };
 
 firebase.initializeApp(firebaseConfig);
