@@ -16,6 +16,7 @@ import Loading from 'components/loading';
 import { fetchMyShop } from 'redux/slices/myShop';
 import SubscriptionsDate from 'components/subscriptions-date';
 import ParcelFloat from 'views/parcel-order/parcel-float';
+import SidebarMobile from 'components/sidebar-mobile';
 const { Content } = Layout;
 
 const AppLayout = () => {

@@ -28,7 +28,7 @@ import { clearCart, clearCartShops } from 'redux/slices/cart';
 import { clearServicesState } from 'redux/slices/services';
 const { Sider } = Layout;
 
-const Sidebar = () => {
+const SidebarMobile = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
   const { pathname } = useLocation();
@@ -150,13 +150,13 @@ const Sidebar = () => {
       <Sider
         className='navbar-nav side-nav'
         width={250}
-        collapsed={navCollapsed}
+        collapsed={true}
         style={{ height: '100vh', top: 0 }}
       >
         <NavProfile user={user} />
-        <div className='menu-collapse' onClick={menuTrigger}>
+        {/* <div className='menu-collapse' onClick={menuTrigger}>
           <MenuFoldOutlined />
-        </div>
+        </div> */}
         {navCollapsed && (
           <div className='flex justify-content-center'>
             <ThemeConfigurator />
@@ -250,14 +250,11 @@ const Sidebar = () => {
                       <Menu.Item
                         key={submenu.id}
                         icon={getSystemIcons(submenu.icon)}
-
                       >
                         <Link
-                        // className='gap-2 flex flex-row items-start justify-start'
                           to={'/' + submenu.url}
                           onClick={() => addNewItem(submenu)}
                         >
-                        {/* {getSystemIcons(submenu.icon)} */}
                           <span>{t(submenu.name)}</span>
                         </Link>
                       </Menu.Item>
@@ -266,7 +263,7 @@ const Sidebar = () => {
                 </SubMenu>
               ) : (
                 <Menu.Item key={item.id} icon={getSystemIcons(item.icon)}>
-                  <Link className='' to={'/' + item.url} onClick={() => addNewItem(item)}>
+                  <Link to={'/' + item.url} onClick={() => addNewItem(item)}>
                     <span>{t(item.name)}</span>
                   </Link>
                 </Menu.Item>
@@ -298,4 +295,4 @@ const Sidebar = () => {
     </>
   );
 };
-export default Sidebar;
+export default SidebarMobile;

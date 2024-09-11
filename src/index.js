@@ -5,6 +5,7 @@ import { PersistGate } from 'redux-persist/integration/react';
 import { persistor, store } from './redux/store';
 import { ContextProvider } from './context/context';
 import App from './app';
+import './index.css';
 import 'react-toastify/dist/ReactToastify.css';
 import 'react-day-picker/dist/style.css';
 import './assets/scss/index.scss';

@@ -138,7 +138,7 @@ const Login = () => {
     <div className='login-container'>
       <div className='container d-flex flex-column justify-content-center h-100 aling-items-center lg:align-items-end'>
   
-            <div className='w-full'>
+            <div className='w-1/3'>
               <Card>
                 <div className='app-brand text-center'>
                   <Title className='brand-logo'>
