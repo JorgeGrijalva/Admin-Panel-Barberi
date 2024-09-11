@@ -43,9 +43,11 @@ export const AddTodoForm = ({ onFormSubmit }) => {
           </Form.Item>
         </Col>
         <Col xs={24} sm={24} md={12} lg={10} xl={6}>
-          <Button type='primary' htmlType='submit' block>
-            <PlusCircleFilled />
+          <Button type='primary' className='' htmlType='submit' block>
+            <span className='w-full flex flex-row truncate'>
+              <PlusCircleFilled  className='pr-1'/>
             {t('todo.add')}
+            </span>
           </Button>
         </Col>
       </Row>

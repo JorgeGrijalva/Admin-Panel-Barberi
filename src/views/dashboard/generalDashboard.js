@@ -222,26 +222,26 @@ export default function GeneralDashboard({ isSeller }) {
             </Col>
           </Row>
           <Row gutter={[24, 24]}>
-            <Col span={12}>
+            {/* <Col span={12}>
               <OrderChart />
-            </Col>
+            </Col> */}
             <Col span={12}>
               <Todo />
             </Col>
-            <Col span={12}>
+            {/* <Col span={12}>
               <TopProducts />
             </Col>
             <Col span={12}>
               <SalesChart />
-            </Col>
+            </Col> */}
             {!isSeller && (
               <Col span={12}>
                 <TopCustomers />
               </Col>
             )}
-            <Col span={12}>
+            {/* <Col span={12}>
               <OrderPieChart counts={counts} />
-            </Col>
+            </Col> */}
           </Row>
         </>
       ) : (

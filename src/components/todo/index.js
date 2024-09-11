@@ -25,12 +25,13 @@ export const Todo = () => {
 
   return (
     <Card
-      className='h-100'
+      className='h-100 '
       title={t('todo.list')}
       extra={
         <Button
           danger
           type='primary'
+          className=''
           disabled={todos.filter((todo) => todo.isComplete).length === 0}
           onClick={handleRemoveTodo}
         >

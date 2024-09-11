@@ -1912,13 +1912,13 @@ const sellerRoutes = [
         id: 'seller_stories',
         children: [],
       },
-      {
-        name: 'brands',
-        icon: 'appStoreAdd',
-        url: 'seller/brands',
-        id: 'brands',
-        children: [],
-      },
+      // {
+      //   name: 'brands',
+      //   icon: 'appStoreAdd',
+      //   url: 'seller/brands',
+      //   id: 'brands',
+      //   children: [],
+      // },
       {
         name: 'form.options',
         icon: 'forms',
