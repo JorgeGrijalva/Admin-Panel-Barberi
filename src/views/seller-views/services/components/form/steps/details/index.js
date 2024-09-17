@@ -259,7 +259,7 @@ const ServiceFormDetails = ({ handleSubmit }) => {
                 { type: 'number', min: 0, message: t('min.0') },
               ]}
             >
-              <InputNumber className='w-100' />
+              <InputNumber min={0} className='w-100' />
             </Form.Item>
           </Col>
           <Col span={12}>
@@ -274,7 +274,7 @@ const ServiceFormDetails = ({ handleSubmit }) => {
                 { type: 'number', min: 0, message: t('min.0') },
               ]}
             >
-              <InputNumber disabled className='w-100' addonAfter='%' />
+              <InputNumber min={0} disabled={false} className='w-100' addonAfter='%' />
             </Form.Item>
           </Col>
           <Col span={12}>
