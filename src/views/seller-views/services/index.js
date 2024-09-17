@@ -26,7 +26,7 @@ const Services = () => {
 
   const { services, loading, meta, params } = useSelector(
     (state) => state.servicesSlice,
-    shallowEqual,
+    shallowEqual
   );
   const { activeMenu } = useSelector((state) => state.menu, shallowEqual);
   // const { myShop } = useSelector((state) => state.myShop, shallowEqual);
@@ -213,7 +213,7 @@ const Services = () => {
         {},
         ...id.map((item, index) => ({
           [`ids[${index}]`]: item,
-        })),
+        }))
       ),
     };
 
@@ -249,7 +249,7 @@ const Services = () => {
         url,
         name: t('add.service'),
         data,
-      }),
+      })
     );
     navigate(`/${url}`, {
       state: { params: paramsData, selectedService: data },
@@ -263,7 +263,7 @@ const Services = () => {
         id: 'edit.service',
         url,
         name: t('edit.service'),
-      }),
+      })
     );
     navigate(`/${url}`, { state: { params: paramsData } });
   };
@@ -274,7 +274,7 @@ const Services = () => {
         <Space wrap>
           <Filter filters={filters} setFilters={setFilters} />
           <Button onClick={deleteSelected}>{t('delete.selected')}</Button>
-          <Button type={'primary'} onClick={() => setIsServiceModalOpen(true)}>
+          <Button type={'primary'} onClick={() => goToAdd(true)}>
             {t('add.service')}
           </Button>
         </Space>
