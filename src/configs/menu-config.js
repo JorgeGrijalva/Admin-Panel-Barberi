@@ -1674,6 +1674,12 @@ const sellerRoutes = [
         url: 'seller/service-notifications',
       },
       {
+        name: 'service.extra',
+        icon: 'appStoreAdd',
+        url: 'service-extra',
+        id: 'service-extra',
+      },
+      {
         name: 'service.master',
         icon: 'scissors',
         url: 'seller/service-master',
