@@ -148,12 +148,19 @@ const Login = () => {
             <Link href='https://barberi.app/' className='client-button'>{t('Ir a Barberi para clientes')}</Link>
           </div>
         </div>
-        <div className='footer'>
-          <img src={BarberiLogo} alt="Barberi Logo" className='app-brand' />
-          <div className='footer-links'>
-            <Link href='https://barberi.app/faq'>{t('Ayuda')}</Link>
-            <Link href='https://barberi.app/privacy'>{t('Política de Privacidad')}</Link>
+        <div className="footer-content">
+          <img 
+            src={BarberiLogo} 
+            alt="Barberi Logo" 
+            className="app-brand" 
+            style={{ margin: '20px 0' }}
+          />
+          <div className="footer-links">
+            <a href="https://barberi.app/terms">Términos y condiciones</a>
+            <a href="https://barberi.app/privacy">Política de privacidad</a>
+            <a href="https://barberi.app/contact">Contacto</a>
           </div>
+          <div class="copyright">© 2024 Barberi. Todos los derechos reservados.</div>
         </div>
       </div>
       <div className='login-background'></div>
