@@ -1,32 +1,211 @@
 .login-container {
   height: 100vh;
-  background-image: url(../../img/login-banner.jpg);
+  display: flex;
+  overflow: hidden;
+}
+
+.login-content {
+  background-color: #ffffff;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 45%; /* Añadido para dar espacio al fondo */
+}
+
+.login-background {
+  background-image: url(../../img/login.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  border: none;
-  backdrop-filter: blur(10px);
+  background-position: center;
+  flex: 1; /* Añadido para que ocupe el espacio restante */
 }
+
 .login-container .app-brand {
-  flex-grow: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  height: 100px;
+  max-width: 100px;
+  max-height: 35px;
 }
-.login-container .app-brand img {
-  max-width: 100%;
-  max-height: 100%;
-}
+
 .login-container .login-form-button {
   width: 100%;
+  background-color: #1a1a1a;
+  border-color: #1a1a1a;
 }
-.login-container .copy-link {
-  display: block;
-  width: 100%;
+
+.login-container .login-form-button:hover {
+  background-color: #333;
+  border-color: #333;
 }
-.brand-logo {
-  width: 100%;
-  word-wrap: break-word;
-  word-break: break-all;
+
+.back-button {
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.back-button a,
+.back-button a span,
+.back-button a:link,
+.back-button a:visited {
+  display: inline-flex;
+  align-items: center;
+  color: #000000 !important;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+.back-button a:hover,
+.back-button a:hover span {
+  color: #333333 !important;
+}
+
+.back-button .anticon {
+  margin-right: 8px;
+  color: #000000;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+input {
+  border-radius: 4px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.ant-typography {
+  color: #666;
+}
+
+.ant-btn {
+  border-radius: 4px;
+}
+
+/* Media queries para dispositivos móviles */
+@media screen and (max-width: 768px) {
+  .login-container {
+    flex-direction: column;
+  }
+
+  .login-content {
+    width: 100%;
+    height: 100vh;
+    padding: 2rem;
+    justify-content: center;
+  }
+
+  .login-background {
+    display: none; /* Ocultamos el fondo en dispositivos móviles */
+  }
+
+  .login-form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  h2 {
+    font-size: 28px;
+    margin-bottom: 1rem;
+  }
+
+  .subtitle {
+    font-size: 18px;
+    margin-bottom: 2rem;
+  }
+
+  .back-button {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    font-size: 16px;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
+    padding: 0 2rem;
+  }
+
+  .ant-form-item {
+    margin-bottom: 1.5rem;
+  }
+
+  .ant-input, .ant-input-password {
+    font-size: 16px;
+    height: 48px;
+  }
+
+  .login-form-button {
+    height: 48px;
+    font-size: 18px;
+  }
+
+  .client-link {
+    margin-top: 2rem;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .login-content {
+    padding: 1.5rem;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+
+  .login-container .app-brand {
+    max-width: 80px;
+    max-height: 28px;
+  }
+
+  .login-form-button,
+  .create-account-button {
+    margin-bottom: 10px;
+  }
+}
+
+/* Ajustes adicionales para pantallas muy pequeñas */
+@media screen and (max-width: 320px) {
+  .login-content {
+    padding: 1rem;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+}
+
+.login-form-button,
+.create-account-button {
+  height: 48px;
+  font-size: 16px;
+}
+
+.create-account-button {
+  background-color: #ffffff;
+  border-color: #1a1a1a;
+  color: #1a1a1a;
+}
+
+.create-account-button:hover {
+  background-color: #f0f0f0;
+  border-color: #333;
+  color: #333;
 }

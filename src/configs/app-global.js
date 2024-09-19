@@ -1,4 +1,4 @@
-export const PROJECT_NAME = 'Barberi app';
+export const PROJECT_NAME = 'Barberi | Manager';
 export const BASE_URL = 'https://api.barberi.app';
 export const WEBSITE_URL = 'https://admin.barberi.app';
 export const api_url = BASE_URL + '/api/v1/';
