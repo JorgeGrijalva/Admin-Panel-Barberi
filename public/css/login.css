@@ -322,3 +322,76 @@ h2 {
 .login-form-wrapper .ant-form-item {
   margin-bottom: 1.5rem;
 }
+
+/* Media query para iPhones más nuevos */
+@media screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .login-content {
+    padding: 2rem 1.5rem;
+  }
+
+  .login-form-wrapper {
+    margin-top: 1.5rem;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .app-brand {
+    max-width: 90px;
+    max-height: 32px;
+  }
+
+  .footer-links {
+    font-size: 14px;
+  }
+
+  .login-form-button,
+  .create-account-button {
+    height: 44px;
+    font-size: 15px;
+  }
+
+  .back-button {
+    top: 1.5rem;
+    left: 1.5rem;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+}
+
+/* Media query para iPhones más nuevos (solo para el footer) */
+@media screen and (min-device-width: 375px) 
+       and (max-device-width: 812px) 
+       and (-webkit-min-device-pixel-ratio: 3) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0.75rem;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .footer .app-brand {
+    max-width: 80px;
+    max-height: 28px;
+  }
+
+  .footer .footer-links {
+    font-size: 13px;
+    gap: 0.75rem;
+  }
+}
