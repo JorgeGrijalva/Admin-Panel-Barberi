@@ -331,15 +331,18 @@ h2 {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    padding-bottom: 2rem;
+    padding: 2rem 1rem; /* Ajuste de padding para mejor espaciado */
   }
 
   .login-form {
     flex-grow: 1;
+    max-width: 100%; /* Asegura que el formulario ocupe todo el ancho disponible */
+    margin: 0 auto;
   }
 
   .client-link {
     margin-bottom: 3rem;
+    font-size: 16px; /* Ajuste de tamaño de fuente para mejor legibilidad */
   }
 
   .footer-content {
