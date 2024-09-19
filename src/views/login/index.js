@@ -91,6 +91,7 @@ const Login = () => {
             form={form}
             onFinish={handleLogin}
             layout='vertical'
+            className='login-form-wrapper'
           >
             <Form.Item
               name='email'
@@ -109,37 +110,35 @@ const Login = () => {
               <Input.Password
                 placeholder={t('Introduce tu contraseña')}
                 size='large'
+                className='custom-password-input'
               />
             </Form.Item>
             
             <Form.Item>
-              <Row gutter={16}>
-                <Col span={12}>
-                  <Button
-                    type='primary'
-                    htmlType='submit'
-                    className='login-form-button'
-                    size='large'
-                    loading={loading}
-                    block
-                  >
-                    {t('Iniciar sesión')}
-                  </Button>
-                </Col>
-                <Col span={12}>
-                  <Button
-                    type='default'
-                    className='create-account-button'
-                    size='large'
-                    block
-                    onClick={() => {
-                      window.location.href = 'https://barberi.app/sign-up';
-                      }}
-                  >
-                    {t('Crear cuenta')}
-                  </Button>
-                </Col>
-              </Row>
+              <Button
+                type='primary'
+                htmlType='submit'
+                className='login-form-button'
+                size='large'
+                loading={loading}
+                block
+              >
+                {t('Iniciar sesión')}
+              </Button>
+            </Form.Item>
+            
+            <Form.Item>
+              <Button
+                type='default'
+                className='create-account-button'
+                size='large'
+                block
+                onClick={() => {
+                  window.location.href = 'https://barberi.app/sign-up';
+                }}
+              >
+                {t('Crear cuenta')}
+              </Button>
             </Form.Item>
           </Form>
 
@@ -151,10 +150,10 @@ const Login = () => {
         </div>
         <div className='footer'>
           <img src={BarberiLogo} alt="Barberi Logo" className='app-brand' />
-          <Space>
+          <div className='footer-links'>
             <Link href='https://barberi.app/faq'>{t('Ayuda')}</Link>
             <Link href='https://barberi.app/privacy'>{t('Política de Privacidad')}</Link>
-          </Space>
+          </div>
         </div>
       </div>
       <div className='login-background'></div>

@@ -66,6 +66,48 @@
 
 .footer {
   margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.footer .app-brand {
+  max-width: 100px;
+  max-height: 35px;
+  margin-bottom: 1rem;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-links a {
+  color: #666;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #333;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem 2rem;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
 }
 
 input {
@@ -116,6 +158,7 @@ h2 {
   .subtitle {
     font-size: 18px;
     margin-bottom: 2rem;
+    display: block;
   }
 
   .back-button {
@@ -138,18 +181,45 @@ h2 {
   }
 
   .ant-input, .ant-input-password {
+    height: 40px;
     font-size: 16px;
-    height: 48px;
   }
 
-  .login-form-button {
-    height: 48px;
-    font-size: 18px;
+  .ant-input-affix-wrapper {
+    padding: 0 11px;
+    height: 40px;
+  }
+
+  .ant-input-affix-wrapper input.ant-input {
+    height: 38px;
+  }
+
+  .ant-input-affix-wrapper .ant-input-suffix {
+    margin-left: 4px;
+  }
+
+  .ant-form-item-control-input {
+    min-height: 40px;
   }
 
   .client-link {
     margin-top: 2rem;
     font-size: 16px;
+  }
+
+  input, 
+  .ant-input-password,
+  .ant-input-affix-wrapper {
+    font-size: 16px;
+    height: 44px;
+  }
+
+  .ant-input-affix-wrapper input.ant-input {
+    height: 42px;
+  }
+
+  .ant-form-item-control-input {
+    min-height: 44px;
   }
 }
 
@@ -174,6 +244,21 @@ h2 {
   .login-form-button,
   .create-account-button {
     margin-bottom: 10px;
+  }
+
+  input, 
+  .ant-input-password,
+  .ant-input-affix-wrapper {
+    font-size: 14px;
+    height: 40px;
+  }
+
+  .ant-input-affix-wrapper input.ant-input {
+    height: 38px;
+  }
+
+  .ant-form-item-control-input {
+    min-height: 40px;
   }
 }
 
@@ -208,4 +293,46 @@ h2 {
   background-color: #f0f0f0;
   border-color: #333;
   color: #333;
+}
+
+/* Ajustes para Input.Password */
+.ant-input-password {
+  position: relative;
+}
+
+.ant-input-password-icon {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.ant-input-password input {
+  padding-right: 30px; /* Ajusta este valor según sea necesario */
+}
+
+.custom-password-input.ant-input-password {
+  display: flex;
+  align-items: center;
+}
+
+.custom-password-input .ant-input {
+  flex: 1;
+}
+
+.custom-password-input .ant-input-suffix {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.login-form-wrapper {
+  margin-top: 2rem;
+}
+
+.login-form-wrapper .ant-form-item {
+  margin-bottom: 1.5rem;
 }
