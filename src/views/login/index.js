@@ -9,8 +9,65 @@ import { notification } from 'antd';
 import { setMenu } from 'redux/slices/menu';
 import { LeftOutlined } from '@ant-design/icons';
 import BarberiLogo from 'assets/icons/logo.webp';
+import styled from 'styled-components';
 
 const { Title, Text, Link } = Typography;
+
+const Container = styled.div`
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+  overflow: hidden;
+`;
+
+const LeftContainer = styled.div`
+  background-color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  @media (min-width: 768px) {
+    width: 40%;
+  }
+  height: 100%;
+`;
+
+const BackLink = styled(Link)`
+  display: flex;
+  align-items: center;
+  color: black;
+  &:hover {
+    color: gray;
+  }
+`;
+
+const FormContainer = styled(Form)`
+  width: 100%;
+  max-width: 400px;
+`;
+
+const PasswordInput = styled(Input.Password)`
+  position: relative;
+  .ant-input-suffix {
+    right: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+`;
+
+const BackgroundImage = styled.div`
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  background-image: url('/img/login.jpg');
+`;
 
 const Login = () => {
   const { t } = useTranslation();
@@ -74,22 +131,21 @@ const Login = () => {
   };
 
   return (
-    <div className="h-screen flex flex-col md:flex-row overflow-hidden">
-      <div className="bg-white p-8 flex flex-col justify-between w-full md:w-2/5 h-full">
-        <div className="mb-4">
-          <Link href="https://barberi.app/for-business" className="flex items-center text-black hover:text-gray-700">
-            <LeftOutlined className="mr-2 " /> {t('Volver')}
-          </Link>
+    <Container>
+      <LeftContainer>
+        <div className="mb-4 text-left md:text-left text-black">
+          <BackLink href="https://barberi.app/for-business">
+            <LeftOutlined className="mr-2" /> {t('Volver')}
+          </BackLink>
         </div>
         <div className="flex flex-col items-center">
           <Title level={2} className="text-2xl font-bold text-center">{t('Barberi para profesionales')}</Title>
           <Text className="text-lg mb-8 text-center">{t('Crea una cuenta o inicia sesión para gestionar tu negocio.')}</Text>
-          <Form
+          <FormContainer
             name="login-form"
             form={form}
             onFinish={handleLogin}
             layout="vertical"
-            className="w-full max-w-md"
           >
             <Form.Item
               name="email"
@@ -105,7 +161,7 @@ const Login = () => {
               name="password"
               rules={[{ required: true, message: t('Por favor ingresa tu contraseña') }]}
             >
-              <Input.Password
+              <PasswordInput
                 placeholder={t('Introduce tu contraseña')}
                 size="large"
                 className="rounded"
@@ -134,7 +190,7 @@ const Login = () => {
                 {t('Crear cuenta')}
               </Button>
             </Form.Item>
-          </Form>
+          </FormContainer>
           <div className="mt-8 text-center">
             <Text>{t('¿Eres cliente y quieres reservar una cita?')}</Text>
             <br />
@@ -155,9 +211,9 @@ const Login = () => {
           </div>
           <div className="text-gray-600 mt-4">© 2024 Barberi. Todos los derechos reservados.</div>
         </div>
-      </div>
-      <div className="flex-1 bg-cover bg-center min-h-screen" style={{ backgroundImage: 'url(/img/login.jpg)' }}></div>
-    </div>
+      </LeftContainer>
+      <BackgroundImage />
+    </Container>
   );
 };
 

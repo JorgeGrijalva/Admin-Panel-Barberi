@@ -382,4 +382,11 @@ h2 {
     font-size: 12px;
     color: #666;
   }
+  .password-input .ant-input-suffix {
+    right: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
 }
