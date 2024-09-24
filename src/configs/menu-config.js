@@ -1546,12 +1546,12 @@ const sellerRoutes = [
     icon: 'wallet',
     url: 'seller/wallet',
   },
-  {
-    name: 'delivery.price',
-    icon: 'delivery',
-    url: 'seller/delivery-price',
-    id: 'seller.delivery.price',
-  },
+  // {
+  //   name: 'delivery.price',
+  //   icon: 'delivery',
+  //   url: 'seller/delivery-price',
+  //   id: 'seller.delivery.price',
+  // },
   {
     name: 'invitations',
     id: 'seller.master-invitations',
@@ -1573,27 +1573,27 @@ const sellerRoutes = [
       // },
     ],
   },
-  {
-    name: 'order',
-    id: 'order_management',
-    icon: 'fiShoppingCart',
-    submenu: [
-      {
-        name: 'all.orders',
-        icon: 'fiShoppingCart',
-        url: 'seller/orders-board',
-        id: 'orders-board',
-        children: [],
-      },
-      {
-        name: 'refunds',
-        icon: 'TbReceiptRefund',
-        url: 'seller/refunds',
-        id: 'refunds_01',
-        children: [],
-      },
-    ],
-  },
+  // {
+  //   name: 'order',
+  //   id: 'order_management',
+  //   icon: 'fiShoppingCart',
+  //   submenu: [
+  //     {
+  //       name: 'all.orders',
+  //       icon: 'fiShoppingCart',
+  //       url: 'seller/orders-board',
+  //       id: 'orders-board',
+  //       children: [],
+  //     },
+  //     {
+  //       name: 'refunds',
+  //       icon: 'TbReceiptRefund',
+  //       url: 'seller/refunds',
+  //       id: 'refunds_01',
+  //       children: [],
+  //     },
+  //   ],
+  // },
   {
     name: 'bookings',
     id: 'seller-bookings',
@@ -1797,12 +1797,12 @@ const sellerRoutes = [
       //   id: 'bonus_shop',
       //   children: [],
       // },
-      {
-        icon: 'GiftOutlined',
-        name: 'product.bonus',
-        url: 'seller/bonus/product',
-        id: 'bonus_product',
-      },
+      // {
+      //   icon: 'GiftOutlined',
+      //   name: 'product.bonus',
+      //   url: 'seller/bonus/product',
+      //   id: 'bonus_product',
+      // },
       {
         name: 'gift.cards',
         icon: 'gift',
@@ -1824,20 +1824,20 @@ const sellerRoutes = [
       },
     ],
   },
-  {
-    name: 'analytics.and.reports',
-    id: 'analytics',
-    icon: 'products',
-    submenu: [
-      {
-        name: 'order',
-        icon: 'orders',
-        url: 'seller/report/orders',
-        id: 'report-orders',
-        children: [],
-      },
-    ],
-  },
+  // {
+  //   name: 'analytics.and.reports',
+  //   id: 'analytics',
+  //   icon: 'products',
+  //   submenu: [
+  //     {
+  //       name: 'order',
+  //       icon: 'orders',
+  //       url: 'seller/report/orders',
+  //       id: 'report-orders',
+  //       children: [],
+  //     },
+  //   ],
+  // },
   {
     name: 'transaction',
     id: 'transaction_management',
