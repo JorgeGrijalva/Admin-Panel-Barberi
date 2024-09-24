@@ -126,9 +126,9 @@ export default function SellerPaymentAdd() {
             ''
           ) : (
             <>
-              <Col span={12}>
-                <Form.Item
-                  label={t('client.id')}
+              <Col span={24}>
+                <Form.Item className='w-full'
+                  label={t('bank.account')}
                   name={'client_id'}
                   rules={[
                     {
@@ -140,7 +140,7 @@ export default function SellerPaymentAdd() {
                   <Input />
                 </Form.Item>
               </Col>
-              <Col span={12}>
+              {/* <Col span={12}>
                 <Form.Item
                   label={t('secret.id')}
                   name={'secret_id'}
@@ -153,7 +153,7 @@ export default function SellerPaymentAdd() {
                 >
                   <Input />
                 </Form.Item>
-              </Col>
+              </Col> */}
               {activePayment?.label === 'Paystack' ? (
                 <>
                   <Col span={12}>
